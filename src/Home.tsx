@@ -24,19 +24,20 @@ const IMAGE_LINK = "/animation.gif";
 const LOGO_LINK = "/logo.png";
 
 const ConnectButton = styled(WalletDialogButton)`
+font-family: 'MedievalSharp', cursive;
   width: 100%;
   height: 60px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  background: linear-gradient(29deg, #34342f 0%, #44c3a1 100%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: linear-gradient(29deg, #34342f 0%, #000000 100%);
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
 `;
 
 const StyledPaper = styled(Paper)`
-  padding: 20px;
-  background-color: #364038;
+  padding: 7px;
+  background-color: #000000;
   border-radius: 6px;
   margin: 10px;
 `;
