@@ -27,7 +27,7 @@ export const Header = ({ candyMachine }: HeaderProps) => {
                   fontWeight: 'bold',
                 }}
               >
-                {`${candyMachine?.state.itemsRemaining}`}
+                {`${((candyMachine?.state.itemsRemaining) - 3333 ) }`}
               </Typography>
             </Grid>
             <Grid container direction="column">
