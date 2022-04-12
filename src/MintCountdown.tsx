@@ -1,5 +1,5 @@
 import { Paper } from '@material-ui/core';
-import Countdown from 'react-countdown';
+// import Countdown from 'react-countdown';
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -104,13 +104,13 @@ export const MintCountdown: React.FC<MintCountdownProps> = ({
   };
 
   if (date) {
-    return (
-      <Countdown
-        date={date}
-        onComplete={onComplete}
-        renderer={renderCountdown}
-      />
-    );
+    // return (
+      // <Countdown
+      //   date={date}
+      //   onComplete={onComplete}
+      //   renderer={renderCountdown}
+      // />
+    // );
   } else {
     return null;
   }
